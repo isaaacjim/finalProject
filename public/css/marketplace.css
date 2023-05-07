@@ -1,0 +1,31 @@
+img {
+    max-width: 200px;
+    max-height: 400px;
+  }
+
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+  
+body{
+    background-color: #A10F1A;
+  }
+
+.card {
+  background-color: black;
+}
+
+.card-title {
+  color: white;
+}
+
+.card-text{
+  color: white;
+}

@@ -1,0 +1,33 @@
+h1{
+    color:red;
+}
+  /* Estilos para el botón */
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #BE1622;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -40%);
+  }
+  
+  /* Estilos para cuando se pase el ratón por encima */
+  .button:hover {
+    background-color: #A10F1A;
+  }
+  
+  /* Estilos para cuando se haga clic */
+  .button:active {
+    background-color: #8D0A14;
+  }
+ 
+  
